@@ -1,0 +1,173 @@
+[
+    {
+        "itemId": 1,
+        "itemName": "Fashion & Accesories",
+        "itemDescription": "high-end, eco-conscious fashion and accessories for men and women.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"100kg"
+    },
+    {
+        "itemId": 2,
+        "itemName": "Outdoor Gear",
+        "itemDescription": "They’ve spent years crafting and perfecting their well-known brand, and every single product description is an extension of that.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"50Kg"
+    },
+    {
+        "itemId": 3,
+        "itemName": "Hardware, Tools, & Accessories",
+        "itemDescription": "ften the art of writing a great product description that sells the product lies in the ability to describe the little things that make all the difference.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"200Kg"
+    },
+    {
+        "itemId": 4,
+        "itemName": "Beauty & Grooming",
+        "itemDescription": "Ever wonder why so many brands use humor on their websites, in their content, in their product descriptions, and in their advertisements? ",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"100kg"
+    },
+    {
+        "itemId": 5,
+        "itemName": "Electronics",
+        "itemDescription": "Sometimes the best solution for writing product descriptions that sell is to just keep it simple.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"90Kg"
+    },
+    {
+        "itemId": 6,
+        "itemName": "Furniture & Home Goods",
+        "itemDescription": "Wayfair is one of the largest online-only home goods retailers in the world, with over 3,800 employees and 36 million active customers.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"200Kg"
+    },
+    {
+        "itemId": 7,
+        "itemName": "Lice",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"50Kg"
+    },
+    {
+        "itemId": 8,
+        "itemName": "ro Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"100kg"
+    },
+    {
+        "itemId": 9,
+        "itemName": "LicHat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"200Kg"
+    },
+    {
+        "itemId": 10,
+        "itemName": "Lat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"90Kg"
+    },
+    {
+        "itemId": 11,
+        "itemName": "en Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"100kg"
+    },
+    {
+        "itemId": 12,
+        "itemName": "Lren Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"90Kg"
+    },
+    {
+        "itemId": 13,
+        "itemName": "Licensed Frozen Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"200Kg"
+    },
+    {
+        "itemId": 14,
+        "itemName": "Licensed Frozen Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"100kg"
+    },
+    {
+        "itemId": 15,
+        "itemName": "Licensed Frozen Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"90Kg"
+    },
+    {
+        "itemId": 16,
+        "itemName": "Licensed Frozen Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"200Kg"
+    },
+    {
+        "itemId": 17,
+        "itemName": "Licensed Frozen Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"50Kg"
+    },
+    {
+        "itemId": 18,
+        "itemName": "Licensed Frozen Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Admin",
+        "avaiableQuantity": "56840",
+        "itemWeight":"100kg"
+    },
+    {
+        "itemId": 19,
+        "itemName": "Licensed Frozen Hat",
+        "itemDescription": "Incidunt et magni est ut.",
+        "price": "170.00",
+        "approvedBy": "Manager",
+        "avaiableQuantity": "56840",
+        "itemWeight":"200Kg"
+    }
+]

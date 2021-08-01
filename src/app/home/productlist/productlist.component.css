@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border: 1px solid lightgray;
+  }
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  .mat-paginator-sticky {
+    bottom: 0px;
+    position: sticky;
+    z-index: 10;
+  }
+
+  th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: auto;
+}

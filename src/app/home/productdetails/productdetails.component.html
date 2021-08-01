@@ -1,0 +1,79 @@
+<mat-card class="example-card mt-2">
+  <mat-card-title>{{isUpdate == true ? 'Update' : 'Add'}} Product Details</mat-card-title>
+  <form [formGroup]="productForm" (ngSubmit)="onFormSubmit()">
+    <mat-card-content>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <mat-form-field appearance="legacy" class="w-100">
+            <mat-label>Item Id</mat-label>
+            <input matInput formControlName="itemId">
+            <mat-error *ngIf="submitted && f.itemId.errors?.required">Item Id is required</mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-sm-6">
+          <mat-form-field appearance="legacy" class="w-100">
+            <mat-label>Item Name</mat-label>
+            <input matInput formControlName="itemName">
+            <mat-error *ngIf="submitted && f.itemName.errors?.required">Item Name is required</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <mat-form-field appearance="legacy" class="w-100">
+            <mat-label>Item Description</mat-label>
+            <textarea matInput formControlName="itemDescription"></textarea>
+            <mat-error *ngIf="submitted && f.itemDescription.errors?.required">Item Description is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-sm-6 mt-3">
+          <mat-form-field appearance="legacy" class="w-100">
+            <mat-label>Item Weight</mat-label>
+            <input matInput formControlName="itemWeight" (keypress)="numberOnly($event)">
+            <mat-error *ngIf="submitted && f.itemWeight.errors?.required">Item Weight is required</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <mat-form-field appearance="legacy" class="w-100">
+            <mat-label>Available Quantity</mat-label>
+            <input matInput formControlName="availableQuantity" (keypress)="numberOnly($event)">
+            <mat-error *ngIf="submitted && f.availableQuantity.errors?.required">Available Quantity is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+
+        <div class="col-sm-6">
+          <mat-form-field appearance="legacy" class="w-100">
+            <mat-label>Approved By</mat-label>
+            <input matInput formControlName="approvedBy">
+            <mat-error *ngIf="submitted && f.approvedBy.errors?.required">Approved By is required</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <mat-form-field appearance="legacy" class="w-100">
+            <mat-label>Price</mat-label>
+            <input matInput formControlName="price" (keypress)="numberOnly($event)">
+            <mat-error *ngIf="submitted && f.price.errors?.required">price is required</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button color="primary" type="button" (click)="onFormSubmit()" style="cursor: pointer;">{{isUpdate == true ? 'Update' :
+        'Submit'}}</button>
+      <button mat-raised-button color="warn" type="button" (click)="resetForm()" style="cursor: pointer;">Cancel</button>
+    </mat-card-actions>
+  </form>
+</mat-card>
